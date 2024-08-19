@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(130deg, #065bf8, #d9e6f5);
+    background-size: 100% 8%;
+    animation: luzes 15s linear infinite;
+}
+
+@keyframes luzes {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 100%; }
+
+}
+
+h1{
+    text-align: center;
+}
+
+.container {
+    display: flex; 
+    /*responsivo por padrão*/
+    
+    gap: 10px;
+    height: 600px;
+    
+}
+
+.btn-container {
+    text-align: center;
+    display: flex;
+    /* flex-direction: ; */
+    gap: 20%;
+    justify-content: center;
+}
+
+/* .btn:hover {
+    
+} */
+.btn {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    text-decoration: overline;
+    color: black;
+    font-size: larger;
+    
+
+}
+
